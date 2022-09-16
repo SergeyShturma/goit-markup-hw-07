@@ -15,7 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -23,33 +22,42 @@
       <div class="container main-nav">
         <nav>
           <a class="logo link" href="./index.html"
-            ><span class="logo-web">Web</span><span class="header-logo-studio">Studio</span></a
+            ><span class="logo-web">Web</span
+            ><span class="page-header__logo-studio">Studio</span></a
           >
           <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link hover" href="./index.html">Студія</a>
+            <li class="menu__item">
+              <a class="menu__link link hover" href="./index.html">Студія</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link current hover" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__item">
+              <a class="menu__link link menu__link_current hover" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="menu-item"><a class="menu-link link hover" href="#">Контакти</a></li>
+            <li class="menu__item"><a class="menu__link link hover" href="#">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="contact-item">
-            <a class="contact-info link hover" href="mailto:info@devstudio.com">
-              <svg lang="en" aria-label="envelope icon" class="contact-icon" width="16" height="12">
+        <ul class="contact list">
+          <li class="contact__item">
+            <a class="contact__info link hover" href="mailto:info@devstudio.com">
+              <svg
+                lang="en"
+                aria-label="envelope icon"
+                class="contact__icon"
+                width="16"
+                height="12"
+              >
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-item">
-            <a class="contact-info link hover" href="tel:+380961111111">
+          <li class="contact__item">
+            <a class="contact__info link hover" href="tel:+380961111111">
               <svg
                 lang="en"
                 aria-label="smartphone icon"
-                class="contact-icon"
+                class="contact__icon"
                 width="10"
                 height="16"
               >
@@ -281,12 +289,12 @@
     <footer class="footer">
       <div class="footer__container container">
         <div>
-          <a class="logo-footer link" href="./index.html"
-            ><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></a
+          <a class="footer__logo link" href="./index.html"
+            ><span class="logo-web">Web</span><span class="footer__logo-studio">Studio</span></a
           >
           <address class="address">
             <ul class="list">
-              <li>
+              <li class="address__item">
                 <a
                   class="address__link link"
                   href="https://goo.gl/maps/EYqhjELSdJhmkw51A"
@@ -295,12 +303,12 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li>
+              <li class="address__item">
                 <a class="contact-link link hover" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="address__item">
                 <a class="contact-link link hover" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
@@ -310,7 +318,7 @@
           <p class="footer__invitation">приєднуйтесь</p>
           <ul class="social-list list">
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="instagram icon"
@@ -323,7 +331,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="twitter icon"
@@ -336,7 +344,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="facebook icon"
@@ -349,7 +357,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="linkedin icon"

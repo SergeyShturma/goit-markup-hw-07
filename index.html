@@ -15,7 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -23,33 +22,40 @@
       <div class="container main-nav">
         <nav>
           <a class="logo link" href="./index.html"
-            ><span class="logo-web">Web</span><span class="header-logo-studio">Studio</span></a
+            ><span class="logo-web">Web</span
+            ><span class="page-header__logo-studio">Studio</span></a
           >
           <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link current hover" href="./index.html">Студія</a>
+            <li class="menu__item">
+              <a class="menu__link link menu__link_current hover" href="./index.html">Студія</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link hover" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__item">
+              <a class="menu__link link hover" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="menu-item"><a class="menu-link link hover" href="#">Контакти</a></li>
+            <li class="menu__item"><a class="menu__link link hover" href="#">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="contact-item">
-            <a class="contact-info link hover" href="mailto:info@devstudio.com">
-              <svg lang="en" aria-label="envelope icon" class="contact-icon" width="16" height="12">
+        <ul class="contact list">
+          <li class="contact__item">
+            <a class="contact__info link hover" href="mailto:info@devstudio.com">
+              <svg
+                lang="en"
+                aria-label="envelope icon"
+                class="contact__icon"
+                width="16"
+                height="12"
+              >
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-item">
-            <a class="contact-info link hover" href="tel:+380961111111">
+          <li class="contact__item">
+            <a class="contact__info link hover" href="tel:+380961111111">
               <svg
                 lang="en"
                 aria-label="smartphone icon"
-                class="contact-icon"
+                class="contact__icon"
                 width="10"
                 height="16"
               >
@@ -72,7 +78,7 @@
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="features__list list">
-            <li>
+            <li class="features__item">
               <div class="features__image">
                 <svg
                   lang="en"
@@ -89,7 +95,7 @@
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li>
+            <li class="features__item">
               <div class="features__image">
                 <svg
                   lang="en"
@@ -106,7 +112,7 @@
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="features__item">
               <div class="features__image">
                 <svg
                   lang="en"
@@ -123,7 +129,7 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="features__item">
               <div class="features__image">
                 <svg
                   lang="en"
@@ -194,7 +200,7 @@
                 <p class="team__position" lang="en">Product Designer</p>
                 <ul class="social-list list">
                   <li>
-                    <a href="#" class="social-list-link link">
+                    <a href="#" class="social-list__link link">
                       <svg
                         lang="en"
                         aria-label="instagram icon"
@@ -207,7 +213,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="twitter icon"
@@ -220,7 +226,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="facebook icon"
@@ -233,7 +239,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="linkedin icon"
@@ -260,7 +266,7 @@
                 <p class="team__position" lang="en">Frontend Developer</p>
                 <ul class="social-list list">
                   <li>
-                    <a href="#" class="social-list-link link">
+                    <a href="#" class="social-list__link link">
                       <svg
                         lang="en"
                         aria-label="instagram icon"
@@ -273,7 +279,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="twitter icon"
@@ -286,7 +292,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="facebook icon"
@@ -299,7 +305,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="linkedin icon"
@@ -326,7 +332,7 @@
                 <p class="team__position" lang="en">Marketing</p>
                 <ul class="social-list list">
                   <li>
-                    <a href="#" class="social-list-link link">
+                    <a href="#" class="social-list__link link">
                       <svg
                         lang="en"
                         aria-label="instagram icon"
@@ -339,7 +345,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="twitter icon"
@@ -352,7 +358,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="facebook icon"
@@ -365,7 +371,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="linkedin icon"
@@ -392,7 +398,7 @@
                 <p class="team__position" lang="en">UI Designer</p>
                 <ul class="social-list list">
                   <li>
-                    <a href="#" class="social-list-link link">
+                    <a href="#" class="social-list__link link">
                       <svg
                         lang="en"
                         aria-label="instagram icon"
@@ -405,7 +411,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="twitter icon"
@@ -418,7 +424,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="facebook icon"
@@ -431,7 +437,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social-list-link">
+                    <a href="#" class="social-list__link">
                       <svg
                         lang="en"
                         aria-label="linkedin icon"
@@ -532,12 +538,12 @@
     <footer class="footer">
       <div class="footer__container container">
         <div>
-          <a class="logo-footer link" href="./index.html"
-            ><span class="logo-web">Web</span><span class="footer-logo-studio">Studio</span></a
+          <a class="footer__logo link" href="./index.html"
+            ><span class="logo-web">Web</span><span class="footer__logo-studio">Studio</span></a
           >
           <address class="address">
             <ul class="list">
-              <li>
+              <li class="address__item">
                 <a
                   class="address__link link"
                   href="https://goo.gl/maps/EYqhjELSdJhmkw51A"
@@ -546,12 +552,12 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li>
+              <li class="address__item">
                 <a class="contact-link link hover" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li>
+              <li class="address__item">
                 <a class="contact-link link hover" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
@@ -561,7 +567,7 @@
           <p class="footer__invitation">приєднуйтесь</p>
           <ul class="social-list list">
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="instagram icon"
@@ -574,7 +580,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="twitter icon"
@@ -587,7 +593,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="facebook icon"
@@ -600,7 +606,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="social-list-link footer-fill-link link">
+              <a href="#" class="social-list__link footer__fill link">
                 <svg
                   lang="en"
                   aria-label="linkedin icon"
@@ -637,42 +643,36 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="btn-modal" type="button" data-modal-close>
-          <svg lang="en" aria-label="close icon" class="btn-modal-icon" width="18" height="18">
+        <button class="modal__btn" type="button" data-modal-close>
+          <svg lang="en" aria-label="close icon" class="modal__btn-icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="form-callback">
-          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
-          <div class="form-field">
-            <label for="user-name" class="label-text">Ім'я</label>
-            <div class="form-input-wrapper">
+        <form class="form">
+          <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
+          <div class="form__field">
+            <label for="user-name" class="form__label">Ім'я</label>
+            <div class="form__wrapper">
               <input
                 type="text"
-                class="form-input"
+                class="form__input"
                 name="user-name"
                 id="user-name"
                 autocomplete="name"
                 pattern="[a-zA-Zа-яА-ЯіІїЇ`ʼ]+"
                 required
               />
-              <svg
-                lang="en"
-                aria-label="person icon"
-                class="form-field-icon"
-                width="18"
-                height="18"
-              >
+              <svg lang="en" aria-label="person icon" class="form__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-person-black"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field">
-            <label for="user-tel" class="label-text">Телефон</label>
-            <div class="form-input-wrapper">
+          <div class="form__field">
+            <label for="user-tel" class="form__label">Телефон</label>
+            <div class="form__wrapper">
               <input
                 type="tel"
-                class="form-input"
+                class="form__input"
                 name="user-tel"
                 id="user-tel"
                 autocomplete="tel"
@@ -680,44 +680,44 @@
                 title="xxx-xxx-xx-xx"
                 required
               />
-              <svg lang="en" aria-label="phone icon" class="form-field-icon" width="18" height="18">
+              <svg lang="en" aria-label="phone icon" class="form__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field">
-            <label for="user-email" class="label-text">Пошта</label>
-            <div class="form-input-wrapper">
+          <div class="form__field">
+            <label for="user-email" class="form__label">Пошта</label>
+            <div class="form__wrapper">
               <input
                 type="email"
-                class="form-input"
+                class="form__input"
                 name="user-email"
                 id="user-email"
                 autocomplete="email"
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 required
               />
-              <svg lang="en" aria-label="email icon" class="form-field-icon" width="18" height="18">
+              <svg lang="en" aria-label="email icon" class="form__icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field form-textarea">
-            <label for="user-comment" class="label-text">Коментар</label>
+          <div class="form__field form__textarea">
+            <label for="user-comment" class="form__label">Коментар</label>
             <textarea
-              class="form-comment"
+              class="form__comment"
               name="user-comment"
               id="user-comment"
               placeholder="Введіть текст"
             ></textarea>
           </div>
-          <label class="form-field-checkbox">
-            <input type="checkbox" class="input-policy" name="user-policy" required />
-            <svg class="svg-checkbox">
-              <use class="svg-checkbox-icon" href="./images/sprite.svg#icon-check"></use>
+          <label class="form__checkbox">
+            <input type="checkbox" class="form__input-policy" name="user-policy" required />
+            <svg class="form__svg-checkbox">
+              <use class="form__checkbox-icon" href="./images/sprite.svg#icon-check"></use>
             </svg>
             Погоджуюся з розсилкою та приймаю&nbsp;
-            <a class="label-policy-deal" href="#">&nbsp;Умови договору</a></label
+            <a class="form__policy-deal" href="#">&nbsp;Умови договору</a></label
           >
           <button class="btn-submit" type="submit">Відправити</button>
         </form>
