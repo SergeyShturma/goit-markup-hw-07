@@ -349,6 +349,21 @@ nav {
   margin-right: 50px;
 }
 
+.hover:hover,
+.hover:focus {
+  color: var(--accent-color);
+}
+
+.menu__link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-text-color);
+  transition: color var(--transition-duration-and-timing-function);
+}
+
 .menu__link_current {
   position: relative;
   color: var(--accent-color);
@@ -363,21 +378,6 @@ nav {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
-
-.hover:hover,
-.hover:focus {
-  color: var(--accent-color);
-}
-
-.menu__link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--primary-text-color);
-  transition: color var(--transition-duration-and-timing-function);
 }
 
 .contact {
